@@ -53,7 +53,7 @@ async def _(event):
         await msg.edit("No Free Courses Available 😞")
         return
 
-    mg = ""
+    mg = "Test"
     for link in links:
         for lin in link:
             mg += f"{lin}\n"
