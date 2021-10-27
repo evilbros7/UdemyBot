@@ -53,12 +53,12 @@ async def _(event):
         await msg.edit("No Free Courses Available 😞")
         return
 
-    mg = "Test"
+    mg = "𝗨𝗱𝗲𝗺𝘆 𝗖𝗼𝘂𝗿𝘀𝗲𝘀 𝗕𝘆 𝗘𝗩𝗜𝗟𝗭𝗢𝗡𝗘\n\n"
     for link in links:
         for lin in link:
             mg += f"{lin}\n"
         await event.reply(mg, link_preview=False)
-        mg = ""
+        mg = "[Join@PremiumCoursesDrivee]"
     await msg.delete()
 
 
