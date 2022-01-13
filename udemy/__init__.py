@@ -18,7 +18,7 @@ Commands:
     /udemy_freebies page
     /tutorialbar page
     /real_discount page
-    
+    /coursevania
     /idcoupons page
 
 page - which page you wanted to scrap and send links. Default is 1
